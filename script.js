@@ -12,7 +12,7 @@ const map = L.map('map', {
 });
 
 const bounds = [[0, 0], [h, w]];
-L.imageOverlay('mapa.jpg', bounds).addTo(map);
+L.imageOverlay('/mapa.jpg', bounds).addTo(map);
 map.fitBounds(bounds);
 
 // LOCAIS E COORDENADAS [Y (altura), X (largura)]
