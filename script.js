@@ -13,7 +13,7 @@ const map = L.map('map', {
 // [Y_min, X_min] até [Y_max, X_max]
 // No Leaflet CRS.Simple: [0, 0] é canto inferior esquerdo, [h, w] é canto superior direito
 const bounds = [[0, 0], [h, w]];
-L.imageOverlay('./mapa.jpg', bounds).addTo(map);
+L.imageOverlay('./gm5ktxl3n08e1.png', bounds).addTo(map);
 map.fitBounds(bounds);
 
 // LOCAIS DE NAVARENE E BALUARTE (Coordenadas calibradas para esta imagem de 1024x659)
